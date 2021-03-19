@@ -48,6 +48,7 @@ const validate = Yup.object({
       await AsyncStorage.setItem('signup', jsonValue)
     } catch (e) {
       console.log(e);
+        
     }
   }
 
